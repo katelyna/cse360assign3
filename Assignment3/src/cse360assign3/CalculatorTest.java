@@ -50,10 +50,6 @@ public class CalculatorTest {
 	
 	@Test
 	public void testGetHistory() {
-		calc.add(4);
-		calc.subtract(2);
-		calc.multiply(2);
-		calc.divide(5);
-		assertEquals("0 + 4 - 2 * 2 / 5", calc.getHistory());
+		assertEquals("",calc.getHistory());
 	}
 }
